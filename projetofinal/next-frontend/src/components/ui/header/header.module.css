@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap');
+
+.logo{
+    color: orange;
+    font-size: 2.5rem;
+}
+.logo span:nth-child(even){
+    color: white;
+}
+
+.container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  
+    
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    max-width: 25%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.navContainer li:hover {
+    color: rgb(219, 158, 5);
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap');
+.containerConteudoPrincipal{
+    display: flex;
+    flex-direction: row;
+    max-width: 1700px;
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+
+.textConteudoPrincipal p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(240, 248, 255, 0.537);
+}
+

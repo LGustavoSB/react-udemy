@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap');
+
+
+.containerVaga{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.containerVaga:hover {
+    border: 1px solid rgb(253, 135, 0);
+    .descricaoText {
+        border: 1px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+    }
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+}
+
+.descricao{
+    display: flex;
+    padding: 10px;
+
+}
+
+.descricaoText {
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.432);
+
+}
+
