@@ -8,7 +8,7 @@ export default async function BlogPage({params}) {
     return(
         <div>
             <h1>{slugPost.title}</h1>
-            <Image src={urlFor(slugPost.image).url()} width={1200} height={500}/>
+            <Image src={urlFor(slugPost.image).url()} width={1200} height={500} alt="Imagem de post de blog"/>
             <p>{slugPost.text}</p>
         </div>
     )

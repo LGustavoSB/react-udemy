@@ -8,7 +8,7 @@ import style from './jogos.module.css'
 const Jogos = ({jogos}) => {
     return(
         <div className={style.container} id='jogos'>
-            <Image className={style.gameBigCard} src={urlFor(jogos[0].image).url()} width={1000} height={400}  />
+            <Image className={style.gameBigCard} src={urlFor(jogos[0].image).url()} width={1000} height={400}  alt='Imagem de jogo em destaque'/>
             <div className={style.containerImageSmall} >
                 {jogos.map((jogo, key) => (
                     <div className={style.gameSmallCard} key={key}>

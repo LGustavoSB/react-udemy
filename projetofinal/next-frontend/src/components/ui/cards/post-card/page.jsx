@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function PostCard({post, slug}){
     return(
         <div>
-            <Link href={`/blog/${slug.current}`} post={post}><Image src={urlFor(post.image).url()} width={500} height={300}/></Link>
+            <Link href={`/blog/${slug.current}`} post={post}><Image src={urlFor(post.image).url()} width={500} height={300} alt="Imagem de post"/></Link>
             <p>{post.title}</p>
         </div>
     )
