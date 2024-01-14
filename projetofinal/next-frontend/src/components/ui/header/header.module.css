@@ -2,7 +2,7 @@
 
 .container {
     height: 150px; 
-    width: 100%;
+    width: 90vw;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -49,7 +49,7 @@
   }
   
   .navContainer li {
-    margin-left: 20px; /* Adiciona um espaçamento entre os links */
+    margin-left: 5vw; /* Adiciona um espaçamento entre os links */
   }
   
   .navContainer li:hover {

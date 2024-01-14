@@ -2,10 +2,11 @@
 
 .container {
     display: flex;
+    gap: 1vw;
     flex-wrap: wrap;
     max-width: 1700px;
     margin: 0 auto; 
-    padding: 20px; 
+    width: 90vw;
 }
 
 .title {
@@ -17,6 +18,6 @@
 }
 
 .vagaCard {
-    padding: 20px;
+    padding: 0.5vw;
     box-sizing: border-box; 
 }

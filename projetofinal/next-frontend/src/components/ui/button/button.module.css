@@ -2,6 +2,9 @@
     background-color: orange;
     padding: 10px 20px 10px 20px;
     border: none;
+    color: #023047;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container:hover{

@@ -1,0 +1,14 @@
+.postCard{
+    width: 29vw;
+
+}
+
+.postCard img{
+    width: 29vw;
+    height: 35vh
+}
+
+
+.postCard img:hover{
+    box-shadow: 0 0 0 5px rgb(253, 135, 0);
+}

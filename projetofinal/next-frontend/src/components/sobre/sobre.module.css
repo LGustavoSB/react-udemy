@@ -7,18 +7,6 @@
 
 }
 
-.content {
-  display: flex;
-  flex-direction: column; 
-}
-
-.text {
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 20px;
-  line-height: 2.5rem;
-}
-
 .title {
   display: flex;
   justify-content: center;
@@ -27,18 +15,67 @@
   font-family: 'Press Start 2P', system-ui;
 }
 
-.image {
-  order: -1; 
+.content {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@media (min-width: 768px) {
-  .content {
-    flex-direction: row;
-  }
+.text{
+  font-size: 1.25vw;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  line-height: 2.5vw;
+  text-indent: 5vw;
+  text-align: justify;
+} 
 
+.textContainer{
+  max-height: 85vh;
+  width: 50%;
+}
+.image{
+  height: 90vh;
+  width: 45%;
+}
+
+
+@media (max-width: 900px) {
+  .content {
+    display: flex;
+    flex-direction: column; 
+  }
+  
   .text {
-    margin-top: 0;
-    margin-right: 8rem;
-    width: 50rem;
+    margin-top:0;
+    font-size: 1vw;
+  }
+  .image{
+    height: 90vh;
+    width: 90vw;
+    order: -1; 
+  }
+  .textContainer{
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .text{
+    margin-top:0;
+    font-size: 2vw;
+  }
+  
+  .textContainer{
+    max-height: 85vh;
+  }
+  .image{
+    width: 45%;
   }
 }
