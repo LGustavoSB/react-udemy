@@ -10,7 +10,7 @@ export default async function JogoPage({params}) {
     return(
         <div className={style.container}>
             <h1>{slugJogo.title}</h1>
-            <Image src={urlFor(slugJogo.image).url()} width={1200} height={500}/>
+            <Image src={urlFor(slugJogo.image).url()} width={1200} height={500} alt="Imagem jogo pagina"/>
             <div>
                 <p>R${slugJogo.value}</p>
                 <Button text="Comprar"/>
