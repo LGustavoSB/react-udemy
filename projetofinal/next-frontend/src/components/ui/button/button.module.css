@@ -9,4 +9,9 @@
     padding: 10px 20px 10px 20px;
     border: none;
     transition: 200ms;
+    cursor: pointer;
+}
+
+.container:active {
+    background-color: rgb(93, 62, 4);
 }

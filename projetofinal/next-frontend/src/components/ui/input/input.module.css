@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Press+Start+2P&display=swap');
+
+.input {
+    color: white;
+    padding: 20px;
+    border: 1px solid #ffffff8f;
+    background-color: transparent;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid orange;
+    
+}
+
+.inputAbout {
+    height: 200px; 
+    resize: vertical;
+  }
+
+.span {
+    color: rgb(255, 0, 0);
+    font-family: Montserrat;
+}

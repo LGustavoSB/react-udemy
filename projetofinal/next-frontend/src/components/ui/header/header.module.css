@@ -1,37 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap');
 
+.container {
+    height: 150px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1550px;
+    margin: 0 auto;
+
+  }
+
 .logo{
     color: orange;
     font-size: 2.5rem;
+    font-family: 'Press Start 2P', system-ui;
 }
 .logo span:nth-child(even){
     color: white;
 }
 
-.container{
-    height: 10vh;
+
+.logoContainer {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    align-items: center; 
+  }
   
-    
-}
-
-.navContainer{
+  .logo {
+    color: orange;
+    font-size: 2.5rem;
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 100%;
-    max-width: 25%;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
+   
+  }
+  
+ 
 
-}
-
-.navContainer li:hover {
+  .logo span:nth-child(even) {
+    color: white;
+  }
+  
+ 
+  
+  .navContainer {
+    display: flex;
+    justify-content: flex-end; /* Coloca os links à direita */
+    align-items: center;
+    width: 50%; /* Ajuste conforme necessário */
+  }
+  
+  .navContainer li {
+    margin-left: 20px; /* Adiciona um espaçamento entre os links */
+  }
+  
+  .navContainer li:hover {
     color: rgb(219, 158, 5);
-}
+  }
+  
