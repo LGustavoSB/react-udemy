@@ -37,7 +37,7 @@
     text-align: justify;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
     .jogoInfo p, .jogoText{
         font-size: 3.5vw;
         line-height: 3vw;
