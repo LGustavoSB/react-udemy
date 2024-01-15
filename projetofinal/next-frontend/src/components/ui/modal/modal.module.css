@@ -1,10 +1,25 @@
 .container{
     background-color: #DFDFE4;
     width: 80%;
-    height: 100%;
-    color: blue;
+    height: 80%;
+    color: #023047;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.title{
+    width: 60%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Press Start 2P", sans-serif;
+    font-weight: 400;
+    line-height: 4vw;
+}
+
+.closeButton{
+    
 }
