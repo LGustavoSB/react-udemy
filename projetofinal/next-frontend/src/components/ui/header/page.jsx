@@ -8,12 +8,14 @@ export default function Header() {
     <div className={style.container}>
       <div className={style.logoContainer}>
         <span className={style.logo}>
-            <LogoJojosLaranja />
+            <LogoJojosLaranja className={style.logoIcon} />
+          <div>
           <span>J</span>
           <span>O</span>
           <span>J</span>
           <span>O</span>
           <span>S</span>
+          </div>
         </span>
       </div>
       <ul className={style.navContainer}>

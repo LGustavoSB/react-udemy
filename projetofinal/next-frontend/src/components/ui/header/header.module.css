@@ -8,7 +8,6 @@
     align-items: center;
     max-width: 1550px;
     margin: 0 auto;
-
   }
 
 .logo{
@@ -56,3 +55,35 @@
     color: rgb(219, 158, 5);
   }
   
+@media (max-width: 700px) {
+  .container {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-bottom: 3vh;
+  }
+  .logo{
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+  .logoIcon{
+    width: 15vw;
+    height: 15vw;
+  }
+  .navContainer {
+    font-size: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .navContainer li {
+    margin-left: 0px;
+  }
+  .navContainer li button {
+    font-size: 4vw; /* Adiciona um espaçamento entre os links */
+  }
+}
