@@ -47,6 +47,6 @@
         flex-direction: column;
     }
     .gameSmallCard img{
-        width: 100%;
+        width: 90vw;
     }
 }

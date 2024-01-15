@@ -15,7 +15,7 @@ export default function Input(input){
 
     return (
         <div className={style.inputContainer}>
-            <label className={style.InputLabel} htmlFor={input.id}>{input.label}</label>
+            <label className={style.inputLabel} htmlFor={input.id}>{input.label}</label>
             <input className={inputClassName} type={input.type} name={input.name} id={input.id}
                     {...register(input.id, input.validation)}
             />

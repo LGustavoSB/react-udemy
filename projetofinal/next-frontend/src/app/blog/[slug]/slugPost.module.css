@@ -20,7 +20,6 @@
 }
 
 
-
 .postInfo, .postText{
     font-family: Montserrat;
     font-size: 1.25vw;
@@ -34,4 +33,23 @@
 .postInfo{
     font-size: 1vw;
     margin-block: 3vh 7vh
+}
+
+@media (max-width: 900px) {
+    .postTitle{
+        font-size: 4vw;
+        line-height: 3vw;
+    }
+    .postInfo{
+        font-size: 3vw;
+    }
+    .postText{
+        font-size: 3.5vw;
+        line-height: 3vw;
+
+    }
+    .postImage{
+        object-fit: cover;
+        height: 20vh;
+    }
 }

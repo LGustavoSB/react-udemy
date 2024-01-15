@@ -67,3 +67,37 @@
 .mainPostContainer:hover{
     box-shadow: 0 0 0 5px rgb(253, 135, 0);
 }
+
+@media (max-width:900px) {
+    .mainPostContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .mainPostTitle{
+        font-family: Montserrat;
+        font-size: 4vw;
+        text-align: left;
+    }
+    
+    .mainPostText{
+        font-size: 3.5vw;
+        line-height: 3vw;
+    }
+    .mainPostInfo{
+        font-size: 2vw;
+        margin-block: 1.5vh 2vw;
+    }
+    
+    .mainPostContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .mainPostImage{
+        width: 100%;
+    }
+}

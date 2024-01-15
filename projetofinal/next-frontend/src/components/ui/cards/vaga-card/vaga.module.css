@@ -42,6 +42,17 @@
     font-weight: 400;
     line-height: normal;
     color: rgba(255, 255, 255, 0.432);
-
 }
 
+@media (max-width: 900px) {
+    .containerVaga{
+        width: 90vw;
+        height: 15vh;
+    }
+    .title {
+        font-size: 5vw;
+    }
+    .descricaoText {
+        font-size: 3vw;
+    }
+}

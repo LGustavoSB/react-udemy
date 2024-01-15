@@ -1,14 +1,23 @@
 .postCard{
     width: 29vw;
-
 }
 
 .postCard img{
     width: 29vw;
-    height: 35vh
+    height: 30%;
 }
 
 
 .postCard img:hover{
     box-shadow: 0 0 0 5px rgb(253, 135, 0);
+}
+
+@media (max-width: 900px) {
+    .postCard{
+        width: 90vw;
+    }
+    .postCard img{
+        width: 90vw;
+        height: 30%;
+    }
 }

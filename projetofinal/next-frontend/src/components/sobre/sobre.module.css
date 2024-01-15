@@ -24,7 +24,7 @@
 
 .text{
   font-size: 1.25vw;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   margin-top: 20px;
   line-height: 2.5vw;
   text-indent: 5vw;
@@ -36,7 +36,7 @@
   width: 50%;
 }
 .image{
-  height: 90vh;
+  height: 90%;
   width: 45%;
 }
 
@@ -48,34 +48,34 @@
   }
   
   .text {
-    margin-top:0;
-    font-size: 1vw;
+    margin-top:10px;
+    font-size: 3vw;
   }
   .image{
-    height: 90vh;
     width: 90vw;
-    order: -1; 
+    order: -1;
+    object-fit: cover;
+    height: 20vh;
   }
   .textContainer{
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media (max-width: 700px) {
   .content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
-  }
-  .text{
-    margin-top:0;
-    font-size: 2vw;
   }
   
   .textContainer{
     max-height: 85vh;
+    width: 100%;
   }
   .image{
-    width: 45%;
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
   }
 }

@@ -20,7 +20,7 @@ export default function Carreira(){
         <div className={style.container}>
             <FormProvider {...methods}>
                 <div  id="form-vaga">  
-                    <h1 className={style.title} >Formulario Carreira</h1>
+                    <h1 className={style.title} >Formulário de Vaga</h1>
                     <form className={style.containerForm} noValidate onSubmit={e => e.preventDefault()}>
                         <Input type={'text'} name={'inputName'} id={'name'} label={'Nome:'} validation={{required: {value: true,message: 'required'}}} />
                         <Input type={'email'} name={'inputEmail'} id={'email'} label={'Email:'} validation={{required: {value: true,message: 'required'},pattern: {value: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/, message: 'Invalid email address'}}}/>

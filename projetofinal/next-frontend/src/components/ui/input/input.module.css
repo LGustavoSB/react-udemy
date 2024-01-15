@@ -3,17 +3,21 @@
 .input {
     color: white;
     padding: 20px;
+    font-family: Montserrat;
     border: 1px solid #ffffff8f;
     background-color: transparent;
+    font-size: 1vw;
 }
 
 .inputContainer {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    width: 600px;
+    width: 50vw;
 }
-
+.inputLabel{
+    font-size: 1.5vw;
+}
 .input:focus {
     outline: none;
     border: 1px solid orange;
@@ -28,4 +32,16 @@
 .span {
     color: rgb(255, 0, 0);
     font-family: Montserrat;
+}
+
+@media (max-width: 900px) {
+    .input {
+        font-size: 3vw;
+    }
+    .inputContainer {
+        width: 90vw;
+    }
+    .inputLabel{
+        font-size: 3vw;
+    }
 }
