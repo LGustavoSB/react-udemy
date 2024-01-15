@@ -22,7 +22,6 @@ export default function Input(input){
             {isInvalid && (<InputError message={inputError.error.message} key={inputError.error.message} />)}
         </div>
     );
-   
 }
 const InputError = ({message}) => {
     return <span className={style.span}>{message}</span>

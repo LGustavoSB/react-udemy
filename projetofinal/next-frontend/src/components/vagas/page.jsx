@@ -1,11 +1,9 @@
-
-
 import VagaCard from "../ui/cards/vaga-card/page" 
-import style from './page.module.css'
-import { getVagas } from "@/utils/get-vagas"
+import style from './vagas.module.css'
+import { getData } from "@/utils/getData"
 
 
-const vagas = await getVagas()
+const vagas = await getData('vagas')
 
 export default function Vagas(){
     return (
@@ -20,8 +18,6 @@ export default function Vagas(){
                     </div>)
                 )}
             </div>
-           
-
         </div>
     )
 }

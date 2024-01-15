@@ -11,8 +11,6 @@ export default function VagaCard({vaga}){
                     {vaga.tags.map((tag, key) => <p className={style.descricaoText} key={key}>{tag.title}</p>)}
                 </div>
             </div>
-        </Link>
-       
-        
+        </Link>  
     )
 }

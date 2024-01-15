@@ -1,7 +1,7 @@
 "use server"
 import Image from 'next/image'
 import JogoCard from '../ui/cards/jogo-card/page'
-import urlFor from '@/utils/get-image'
+import urlFor from '@/utils/getImage'
 import style from './jogos.module.css'
 import Link from 'next/link'
 

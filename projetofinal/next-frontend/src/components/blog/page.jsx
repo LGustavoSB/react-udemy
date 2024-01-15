@@ -1,7 +1,7 @@
 "use server"
 import Image from 'next/image'
 import PostCard from '../ui/cards/post-card/page'
-import urlFor from '@/utils/get-image'
+import urlFor from '@/utils/getImage'
 import style from './blog.module.css'
 import Link from 'next/link'
 

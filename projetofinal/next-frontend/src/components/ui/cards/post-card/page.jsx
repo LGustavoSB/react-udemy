@@ -1,5 +1,5 @@
 import Image from "next/image"
-import urlFor from "@/utils/get-image"
+import urlFor from "@/utils/getImage"
 import Link from "next/link";
 import style from './postCard.module.css'
 

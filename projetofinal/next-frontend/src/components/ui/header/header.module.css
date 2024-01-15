@@ -55,9 +55,9 @@
     color: rgb(219, 158, 5);
   }
   
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .container {
-    margin-top: 3vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     width: 90vw;

@@ -1,6 +1,6 @@
 import style from "./jogoCard.module.css"
 import Image from "next/image"
-import urlFor from "@/utils/get-image"
+import urlFor from "@/utils/getImage"
 import Link from "next/link";
 
 export default function JogoCard({jogo, slug}){

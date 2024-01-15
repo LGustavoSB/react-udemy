@@ -1,4 +1,4 @@
-import urlFor from "@/utils/get-image"
+import urlFor from "@/utils/getImage"
 import client from "../../../../sanity-backend/sanity-client"
 import Image from "next/image"
 import Button from "@/components/ui/button/page"
